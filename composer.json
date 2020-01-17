@@ -2,6 +2,7 @@
     "name": "rezaulcsembstu/category-name-generator",
     "description": "generate category name",
     "type": "library",
+    "version": "1.0.0",
     "require": {
         "php": ">=5.4.0",
         "fzaninotto/faker": "~1.4"
