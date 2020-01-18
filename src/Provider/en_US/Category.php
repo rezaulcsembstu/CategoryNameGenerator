@@ -121,6 +121,6 @@ class Category extends \Faker\Provider\Base
      */
     public function profession()
     {
-        return static::randomElement(static::$profession);
+        return static::randomElement(static::$professions);
     }
 }
