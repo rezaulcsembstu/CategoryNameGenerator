@@ -79,6 +79,31 @@ class Category extends \Faker\Provider\Base
         'Recycle Old Posts'
     ];
 
+    protected static $professions = [
+        'Accountant',
+        'Teacher',
+        'Technician',
+        'Laborer',
+        'Physical',
+        'Commercial Banker',
+        'Engineer',
+        'Lawyer',
+        'Psychologist',
+        'Pharmacist',
+        'Dietitian',
+        'Research Analyst',
+        'Midwife',
+        'Mechanic',
+        'Dentist',
+        'Electrician',
+        'Consultant',
+        'Investment Banker',
+        'Programmer',
+        'Manager',
+        'Admin',
+        'Super Admin'
+    ];
+
 
 
     /**
@@ -88,5 +113,14 @@ class Category extends \Faker\Provider\Base
     public function categoryName()
     {
         return static::randomElement(static::$categoryNames);
+    }
+
+    /**
+     * A random Profession Name.
+     * @return string
+     */
+    public function profession()
+    {
+        return static::randomElement(static::$profession);
     }
 }
