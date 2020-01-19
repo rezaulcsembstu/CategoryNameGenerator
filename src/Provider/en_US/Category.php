@@ -134,6 +134,6 @@ class Category extends \Faker\Provider\Base
     public function administrator($index)
     {
         //return static::randomElement(static::$administrators);
-        return static::$administrator[$index];
+        return static::$administrators[$index];
     }
 }
