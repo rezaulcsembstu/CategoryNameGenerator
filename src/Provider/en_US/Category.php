@@ -98,7 +98,10 @@ class Category extends \Faker\Provider\Base
         'Electrician',
         'Consultant',
         'Investment Banker',
-        'Programmer',
+        'Programmer'
+    ];
+
+    protected static $administrators = [
         'Manager',
         'Admin',
         'Super Admin'
@@ -122,5 +125,14 @@ class Category extends \Faker\Provider\Base
     public function profession()
     {
         return static::randomElement(static::$professions);
+    }
+
+    /**
+     * A random Administrator Profession Name.
+     * @return string
+     */
+    public function administrator()
+    {
+        return static::randomElement(static::$administrators);
     }
 }
