@@ -1,8 +1,7 @@
 
-Copyright (C) 2020 MD. Rezaul Islam
-MIT License
+# MIT License
 
-Copyright (c) MD. Rezaul Islam
+Copyright (C) 2020 MD. Rezaul Islam
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

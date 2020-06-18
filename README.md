@@ -1,10 +1,9 @@
-CategoryNameGenerator
 # Very short description of the package
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/rezaulcsembstu/categorynamegenerator.svg?style=flat-square)](https://packagist.org/packages/rezaulcsembstu/categorynamegenerator)
-[![Build Status](https://img.shields.io/travis/rezaulcsembstu/categorynamegenerator/master.svg?style=flat-square)](https://travis-ci.org/rezaulcsembstu/categorynamegenerator)
-[![Quality Score](https://img.shields.io/scrutinizer/g/rezaulcsembstu/categorynamegenerator.svg?style=flat-square)](https://scrutinizer-ci.com/g/rezaulcsembstu/categorynamegenerator)
-[![Total Downloads](https://img.shields.io/packagist/dt/rezaulcsembstu/categorynamegenerator.svg?style=flat-square)](https://packagist.org/packages/rezaulcsembstu/categorynamegenerator)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/rezaulcsembstu/category-name-generator.svg?style=flat-square)](https://packagist.org/packages/rezaulcsembstu/category-name-generator)
+[![Build Status](https://img.shields.io/travis/rezaulcsembstu/category-name-generator/master.svg?style=flat-square)](https://travis-ci.org/rezaulcsembstu/category-name-generator)
+[![Quality Score](https://img.shields.io/scrutinizer/g/rezaulcsembstu/category-name-generator.svg?style=flat-square)](https://scrutinizer-ci.com/g/rezaulcsembstu/category-name-generator)
+[![Total Downloads](https://img.shields.io/packagist/dt/rezaulcsembstu/category-name-generator.svg?style=flat-square)](https://packagist.org/packages/rezaulcsembstu/category-name-generator)
 
 This is where your description should go. Try and limit it to a paragraph or two, and maybe throw in a mention of what PSRs you support to avoid any confusion with users and contributors.
 
@@ -13,7 +12,7 @@ This is where your description should go. Try and limit it to a paragraph or two
 You can install the package via composer:
 
 ```bash
-composer require rezaulcsembstu/categorynamegenerator
+composer require rezaulcsembstu/category-name-generator
 ```
 
 ## Usage

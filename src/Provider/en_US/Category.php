@@ -2,6 +2,9 @@
 
 namespace CategoryNameGenerator\Provider\en_US;
 
+/**
+ * Generate caetegory and profession noun
+ */
 class Category extends \Faker\Provider\Base
 {
     protected static $categoryNames = [
@@ -101,7 +104,7 @@ class Category extends \Faker\Provider\Base
         'Programmer'
     ];
 
-    protected static $administrators = [       
+    protected static $administrators = [
         'Super Admin',
         'Admin',
         'Manager',
