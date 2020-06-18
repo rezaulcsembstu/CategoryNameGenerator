@@ -1,7 +1,7 @@
 # Changelog
 
-All notable changes to `categorynamegenerator` will be documented in this file
+All notable changes to `category-name-generator` will be documented in this file
 
-## 1.0.0 - 201X-XX-XX
+## 1.2.0 - 2020-06-18
 
-- initial release
+- refactored release
