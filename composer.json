@@ -1,22 +1,43 @@
 {
     "name": "rezaulcsembstu/category-name-generator",
-    "description": "generate category name",
+    "description": "Category Name Generator",
     "type": "library",
     "version": "1.0.0",
     "require": {
-        "php": ">=5.4.0",
+        "php": "^7.1",
         "fzaninotto/faker": "~1.4"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.0"
     },
     "license": "MIT",
     "authors": [
         {
-            "name": "Rezaul Islam",
-            "email": "rezaul.cse.mbstu@gmail.com"
+            "name": "MD. Rezaul Islam",
+            "email": "rezaul.cse.mbstu@gmail.com",
+            "role": "Developer"
         }
     ],
     "autoload": {
         "psr-4": {
-            "CategoryNameGenerator\\": "src/"
+            "CategoryNameGenerator\\": "src"
         }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "CategoryNameGenerator\\Tests\\": "tests"
+        }
+    },
+    "keywords": [
+        "rezaulcsembstu",
+        "categorynamegenerator"
+    ],
+    "homepage": "https://github.com/rezaulcsembstu/category-name-generator",
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
+    },
+    "config": {
+        "sort-packages": true
     }
 }
